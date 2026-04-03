@@ -1,13 +1,13 @@
 node{
   // Jenkinsfile - scripted pipeline
   checkout scm
-  stages('Build'){
+  stage('Build'){
     echo 'Building.......'
   }
-  stages('Test'){
+  stage('Test'){
     echo 'Testing.......'
   }
-  stages('Deploy'){
+  stage('Deploy'){
     echo 'Deploying.......'
   }
 }
