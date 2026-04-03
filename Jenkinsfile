@@ -1,5 +1,5 @@
 node{
-  checkout scm
+  agent any
   stages{
     stage("Build"){
       echo "Building....."
